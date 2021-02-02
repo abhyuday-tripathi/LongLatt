@@ -93,10 +93,10 @@ section .text .btn:hover {
   }
 
   section .text h2 {
-    font-size: 42px;
+    font-size: 32px;
   }
 
   section .text p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
