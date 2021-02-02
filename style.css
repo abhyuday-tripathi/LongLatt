@@ -85,7 +85,7 @@ section .text .btn:hover {
 
 @media (max-width: 991px) {
   .navbar h1 {
-    font-size: 22px;
+    font-size: 19px;
   }
 
   .navbar h1 span {
