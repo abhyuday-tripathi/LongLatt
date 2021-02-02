@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  background-color: #212121;
+  height: 10vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar h1 {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+.navbar h1 span {
+  color: red;
+  font-size: 40px;
+}
+
+section {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+section video {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+section .text {
+  z-index: 1;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+section .text h2 {
+  font-weight: 800;
+  font-size: 66px;
+  margin-bottom: 50px;
+}
+
+section .text p {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+section .text .btn {
+  background-color: #f70909;
+  margin-top: 50px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 21px;
+  border-radius: 2px;
+}
+
+section .text .btn:hover {
+  box-shadow: 15px 14px 400px 21px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 15px 14px 400px 21px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 15px 14px 400px 21px rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 991px) {
+  .navbar h1 {
+    font-size: 22px;
+  }
+
+  .navbar h1 span {
+    font-size: 28px;
+  }
+
+  section .text h2 {
+    font-size: 42px;
+  }
+
+  section .text p {
+    font-size: 20px;
+  }
+}
